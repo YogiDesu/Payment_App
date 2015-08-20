@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Nameofapp</title>
+  
+  <title>First Site</title>
+
+  <!-- Bootstrap And Jquery -->
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <!-- I had to take out the Javascript for this to work -->
+  
+  
+  <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>  
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  
 </head>
 <body>
+  <h1>Welcome to Bikes of the Bay</h1>
+  <h2> Your source for used bikes in the bay area</h2>
+  <%= image_tag("killa.png")%>
 
 <%= yield %>
 
