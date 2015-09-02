@@ -1189,3 +1189,4 @@ Started GET "/assets/Bike1-b4b103d5be125f9f05728ed1a6faa9bae97957603c3b0d493f51c
 
 
 Started GET "/assets/Bike1-b4b103d5be125f9f05728ed1a6faa9bae97957603c3b0d493f51c46ccad4fcb5.jpg" for ::1 at 2015-09-01 13:38:05 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
